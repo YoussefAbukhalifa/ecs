@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECS Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagesecs-logo.jpg" alt="ECS Logo">
+        </div>
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero"></section>
+    </main>
+    <section id="about" class="about-us">
+        <h1>ABOUT US</h1>
+        <div class="cards">
+            <div class="card">
+                <div class="icon"><img src="images/who_we_are_icon.png" alt="Who We Are Icon"></div>
+                <h2>Who We Are?</h2>
+            </div>
+            <div class="card">
+                <div class="icon"><img src="images/our_goals_icon.png" alt="Our Goals Icon"></div>
+                <h2>Our Goals</h2>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="icon"><img src="images/achievements_icon.png" alt="Achievements Icon"></div>
+                <h2>Achievements</h2>
+            </div>
+        </div>
+    </section>
+    <section id="partners" class="partners">
+        <h1>PARTNERS WITH US</h1>
+        <div class="partner-logos">
+            <div class="logo-row">
+                <img src="images/google_logo.jpg" alt="Google">
+                <img src="images/microsoft_logo.jpg" alt="Microsoft">
+                <img src="images/airbnb_logo.png" alt="Airbnb">
+                <img src="images/facebook_logo.png" alt="Facebook">
+                <img src="images/spotify_logo.png" alt="Spotify">
+            </div>
+            <div class="logo-row">
+                <img src="images/google_logo.jpg" alt="Google">
+                <img src="images/microsoft_logo.jpg" alt="Microsoft">
+                <img src="images/airbnb_logo.png" alt="Airbnb">
+                <img src="images/facebook_logo.png" alt="Facebook">
+                <img src="images/spotify_logo.png" alt="Spotify">
+            </div>
+            <div class="logo-row">
+                <img src="images/google_logo.jpg" alt="Google">
+                <img src="images/microsoft_logo.jpg" alt="Microsoft">
+                <img src="images/airbnb_logo.png" alt="Airbnb">
+                <img src="images/facebook_logo.png" alt="Facebook">
+                <img src="images/spotify_logo.png" alt="Spotify">
+            </div>
+        </div>
+    </section>
+    <section class="activities" id="activities">
+        <h1>Activities</h1>
+        <div class="activity-cards">
+            <div class="activity-part1">
+                <div class="activity-card">
+                    <img src="images/programms_icon.png" alt="Programs Icon">
+                    <h2>Programs</h2>
+                </div>
+                <div class="activity-card">
+                    <img src="images/events_icon.png" alt="Events Icon">
+                    <h2>Events</h2>
+                </div>
+            </div>
+            <div class="activity-part1">
+                <div class="activity-card">
+                    <img src="images/workshops_icon.png" alt="Workshops Icon">
+                    <h2>Workshops</h2>
+                </div>
+                <div class="activity-card">
+                    <img src="images/global_opportunities_icon.png" alt="Global Opportunities Icon">
+                    <h2>Global Opportunities</h2>
+                </div>
+            </div>
+            <div class="activity-part1">
+                <div class="activity-card">
+                    <img src="images/articles_icon.png" alt="Articles Icon">
+                    <h2>Articles</h2>
+                </div>
+                <div class="activity-card">
+                    <img src="images/competitions_icon.png" alt="Competitions Icon">
+                    <h2>Competitions</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ecs-board">
+        <h1>ECS BOARD</h1>
+        <div class="board-members">
+            <div class="member-card">
+                <img src="images/peg_legge.jpg" alt="Peg Legge">
+                <h2>Peg Legge</h2>
+                <p>CEO</p>
+            </div>
+            <div class="member-card">
+                <img src="images/peg_legge.jpg" alt="Peg Legge">
+                <h2>Richard Guerra</h2>
+                <p>CTO</p>
+            </div>
+            <div class="member-card">
+                <img src="images/peg_legge.jpg" alt="Peg Legge">
+                <h2>Alexandra Stolz</h2>
+                <p>DESIGNER</p>
+            </div>
+            <div class="member-card">
+                <img src="images/peg_legge.jpg" alt="Peg Legge">
+                <h2>Janet Bray</h2>
+                <p>DEVELOPER</p>
+            </div>
+            <div class="member-card">
+                <img src="images/peg_legge.jpg" alt="Peg Legge">
+                <h2>Peg Legge</h2>
+                <p>CEO</p>
+            </div>
+            <div class="member-card">
+                <img src="images/peg_legge.jpg" alt="Peg Legge">
+                <h2>Richard Guerra</h2>
+                <p>CTO</p>
+            </div>
+            <div class="member-card">
+                <img src="images/peg_legge.jpg" alt="Peg Legge">
+                <h2>Alexandra Stolz</h>
+                    <p>DESIGNER</p>
+            </div>
+            <div class="member-card">
+                <img src="images/peg_legge.jpg" alt="Peg Legge">
+                <h2>Janet Bray</h2>
+                <p>DEVELOPER</p>
+            </div>
+            <div class="member-card">
+                <img src="images/peg_legge.jpg" alt="Peg Legge">
+                <h2>Peg Legge</h2>
+                <p>CEO</p>
+            </div>
+            <div class="member-card">
+                <img src="images/peg_legge.jpg" alt="Peg Legge">
+                <h2>Richard Guerra</h2>
+                <p>CTO</p>
+            </div>
+            <div class="member-card">
+                <img src="images/peg_legge.jpg" alt="Peg Legge">
+                <h2>Alexandra Stolz</h2>
+                <p>DESIGNER</p>
+            </div>
+            <div class="member-card">
+                <img src="images/peg_legge.jpg" alt="Peg Legge">
+                <h2>Janet Bray</h2>
+                <p>DEVELOPER</p>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <footer>
+            <div class="footer-content">
+                <div class="logo-container">
+                    <img src="images/logo_transperant.png" alt="ECS Logo" class="logo">
+                    <div class="company-name">
+                        <h1>Earth Care Solutions</h1>
+                        <p>Copyright © 2024 ECS</p>
+                    </div>
+                </div>
+                <div class="hashtag">
+                    <p>#Keep The Only Earth Clean</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            </div>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
